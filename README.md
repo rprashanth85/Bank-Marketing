@@ -56,6 +56,17 @@ Simple Logictic Classifier ROC Curve-AUC score
 <img width="626" alt="Screenshot 2024-10-31 at 12 04 39 AM" src="https://github.com/user-attachments/assets/62fe3543-e8c4-4d96-b8b5-957e78d8f67a">
 
 # All Model Comparison - All default
+Task is to create a Data frame and capture the Training Time, Training Accuracy and Test Accuracy.
+When comparing all models Decision Tree performed better with AUC score of 0.74. 
+SVM and KNN with score of 0.70.
+Still it is not a clear difference whcih model is better.
+<img width="441" alt="Screenshot 2024-10-31 at 12 11 51 AM" src="https://github.com/user-attachments/assets/ebf023c8-179e-4cbd-95fe-3fc3fe81388d">
+
+# Improving the models - with hyperparameters
+
+
+# Adjusting performance metrics
+
 
 
 
