@@ -79,6 +79,11 @@ Results from Grid Search are below
 
 <img width="540" alt="Grid Search All Model Results" src="https://github.com/user-attachments/assets/7482339c-6d2d-410c-b720-b9635a1bfb41">
 
+Below is ROC Curve with AUC for All Classifier Best Model
+
+<img width="667" alt="ROC Curve for All Classifier Best Model  with AUC" src="https://github.com/user-attachments/assets/cde9f69f-92fa-4046-ac5a-8c2698660282">
+
+
 **Key Insights**
 
 Decision Tree has the highest overall accuracy at 91.9% and performs consistently between training and testing.
