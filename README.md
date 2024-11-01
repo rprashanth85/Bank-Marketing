@@ -25,9 +25,11 @@ There are few columns like 'pdays', 'previous', 'nr.employed' can be removed as 
 Meaning no impact. But removing also will not impact the modeling.
 
 Summary of Numerical Features
+
 <img width="1077" alt="Screenshot 2024-10-30 at 11 50 47 PM" src="https://github.com/user-attachments/assets/b01caa7a-54ba-48b7-aa97-bfca1758757b">
 
 Summary of Categorical Features
+
 <img width="836" alt="Screenshot 2024-10-30 at 11 50 56 PM" src="https://github.com/user-attachments/assets/14119482-d718-4983-8b70-ac5b6b1b11fe">
 
 More than investigating data key here is the Classifier model itself.
@@ -44,6 +46,7 @@ Established a baseline to compare the other models. For this used DummyClassifie
 Indicates that the predictions are positive.
 
 Dummy Classifier ROC Curve-AUC score
+
 <img width="630" alt="ROC Curve Dummy Classifier with AUC" src="https://github.com/user-attachments/assets/51e323f2-8c73-4c5c-a22e-cf540108695a">
 
 
@@ -51,9 +54,11 @@ Dummy Classifier ROC Curve-AUC score
 Simple Logictic Regression Model did improve the prediction rate overall with AUC 0.71 and predicting NO with 93% and Yes with 71%
 
 Simple Logistic Classification Report 
+
 <img width="413" alt="Screenshot 2024-10-31 at 12 04 49 AM" src="https://github.com/user-attachments/assets/91218cd4-59fc-49c7-81d4-146e95414d77">
 
 Simple Logictic Classifier ROC Curve-AUC score
+
 <img width="626" alt="Screenshot 2024-10-31 at 12 04 39 AM" src="https://github.com/user-attachments/assets/62fe3543-e8c4-4d96-b8b5-957e78d8f67a">
 
 # All Model Comparison - All default
@@ -61,6 +66,7 @@ Task is to create a Data frame and capture the Training Time, Training Accuracy 
 When comparing all models Decision Tree performed better with AUC score of 0.74. 
 SVM and KNN with score of 0.70.
 Still it is not a clear difference whcih model is better.
+
 <img width="441" alt="Screenshot 2024-10-31 at 12 11 51 AM" src="https://github.com/user-attachments/assets/ebf023c8-179e-4cbd-95fe-3fc3fe81388d">
 
 # Improving the models - with hyperparameters
