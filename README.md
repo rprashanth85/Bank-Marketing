@@ -70,8 +70,24 @@ Still it is not a clear difference whcih model is better.
 
 <img width="441" alt="Screenshot 2024-10-31 at 12 11 51 AM" src="https://github.com/user-attachments/assets/ebf023c8-179e-4cbd-95fe-3fc3fe81388d">
 
-# Improving the models - with hyperparameters
+# Improving the models - With Hyperparameters
+Below are the hyperparameters defined for each of the classifiers and model them. 
 
+<img width="460" alt="All Model Hyperparameters" src="https://github.com/user-attachments/assets/35f645cc-690a-4dfc-b559-0b502c153ae6">
+
+Results from Grid Search are below
+
+<img width="540" alt="Grid Search All Model Results" src="https://github.com/user-attachments/assets/7482339c-6d2d-410c-b720-b9635a1bfb41">
+
+**Key Insights**
+
+Decision Tree has the highest overall accuracy at 91.9% and performs consistently between training and testing.
+
+SVM has good accuracy at 91.1% but a very high computation time (1274 seconds).
+
+KNN achieves a strong balance with 90.9% accuracy and the lowest fit time (1.2 seconds).
+
+Logistic Regression has moderate performance with 90.7% accuracy but lower training/testing accuracy.
 
 # Adjusting performance metrics
 
