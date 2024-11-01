@@ -91,7 +91,33 @@ Logistic Regression has moderate performance with 90.7% accuracy but lower train
 
 # Adjusting performance metrics
 
+Based on the metrics above Decision Tree and SVC are best models.
 
+Considering the Grid Search best parameters of decision tree I have captured 
+1) Tuned Decision Tree Model
+2) Precision Score
+3) ROC Curve
+4) AUC
+
+ROC and AUC will remain the same as Grid Search whcih is 75%. Train and Test precision scores are 66% and 68% respectively.
+
+# Further Analysis
+
+Through out this exercise I have been using roc_curve, auc library from sklearn.metrics for the measuring the scores. 
+Based on that Decision Tree performed better and second best is the SVC. 
+
+There is a different library called RocCurveDisplay from sklearn.metrics
+
+Using RocCurveDisplay I got a score of 94% for SVC and 93% for Decision Tree. 
+For this SVC performed better slightly that the Decision Tree.
+
+And this result is more in line with the scores presented in the CRIS-DM-BANK.pdf file.
+
+Next step would be to measure the performance of all models with hyper parameters based on RocCurveDisplay from sklearn.metrics library.
+
+Below is the metric for Decision Tree 
+
+<img width="601" alt="RocCurveDisplay for Decision Tree" src="https://github.com/user-attachments/assets/0c30a5a4-151d-4d85-ac35-53f4fea0b612">
 
 
 
