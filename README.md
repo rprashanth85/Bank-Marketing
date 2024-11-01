@@ -57,7 +57,7 @@ Simple Logistic Classification Report
 
 <img width="413" alt="Screenshot 2024-10-31 at 12 04 49 AM" src="https://github.com/user-attachments/assets/91218cd4-59fc-49c7-81d4-146e95414d77">
 
-Simple Logictic Classifier ROC Curve-AUC score
+Simple Logictic Regression ROC Curve-AUC score
 
 <img width="651" alt="ROC Curve Simle Logistic Model with AUC" src="https://github.com/user-attachments/assets/134d656b-4335-48d4-ab41-930163b7c7ea">
 
