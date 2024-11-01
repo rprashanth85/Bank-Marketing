@@ -32,6 +32,18 @@ Summary of Categorical Features
 
 <img width="836" alt="Screenshot 2024-10-30 at 11 50 56 PM" src="https://github.com/user-attachments/assets/14119482-d718-4983-8b70-ac5b6b1b11fe">
 
+The heat map shows strong correlation between 'euribor3m','emp.var.rate','cons.price.idx', 'nr.employed'. Using just 'euribor3m' will be a representative of other fields. 
+
+![Heatmap of Correlations Among Selected Numerical Features](https://github.com/user-attachments/assets/6c33c230-b4b2-4702-8eb1-e47fc66bb700)
+
+
+Also 'poutcome' does not add any value, 83% customers were never contacted before. So this field also does not add any value.
+
+![Frequency of poutcome](https://github.com/user-attachments/assets/4315afbe-b762-48a6-84e9-7223e10e538e)
+
+
+As this whole data set has imblanced target class it is not possible to clearly separate out the columns not needed. 
+
 More than investigating data key here is the Classifier model itself.
 
 # Data Preparation for Modeling 
@@ -108,6 +120,7 @@ ROC and AUC will remain the same as Grid Search whcih is 75%. Train and Test pre
 
 # Further Analysis
 
+**Exploring Different ROC Curve Libraries**
 Through out this exercise I have been using roc_curve, auc library from sklearn.metrics for the measuring the scores. 
 Based on that Decision Tree performed better and second best is the SVC. 
 
@@ -124,6 +137,12 @@ Below is the metric for Decision Tree
 
 <img width="601" alt="RocCurveDisplay for Decision Tree" src="https://github.com/user-attachments/assets/0c30a5a4-151d-4d85-ac35-53f4fea0b612">
 
+**Remove High Correlated Fields & Model**
 
+Looking at the heat map there are strong correlation between 'euribor3m','emp.var.rate','cons.price.idx', 'nr.employed'. Using just 'euribor3m' will be a representative of other fields. 
+
+Also 'poutcome' does not add any value, 83% customers were never contacted before. So this field also does not add any value.
+
+Removing these columns would it give different results? 
 
 
