@@ -59,7 +59,8 @@ Simple Logistic Classification Report
 
 Simple Logictic Classifier ROC Curve-AUC score
 
-<img width="626" alt="Screenshot 2024-10-31 at 12 04 39 AM" src="https://github.com/user-attachments/assets/62fe3543-e8c4-4d96-b8b5-957e78d8f67a">
+<img width="651" alt="ROC Curve Simle Logistic Model with AUC" src="https://github.com/user-attachments/assets/134d656b-4335-48d4-ab41-930163b7c7ea">
+
 
 # All Model Comparison - All default
 Task is to create a Data frame and capture the Training Time, Training Accuracy and Test Accuracy.
