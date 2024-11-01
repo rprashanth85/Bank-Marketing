@@ -62,7 +62,7 @@ Simple Logictic Regression ROC Curve-AUC score
 <img width="651" alt="ROC Curve Simle Logistic Model with AUC" src="https://github.com/user-attachments/assets/134d656b-4335-48d4-ab41-930163b7c7ea">
 
 
-# All Model Comparison - All default
+# All Model Comparison - Default Parameterization
 Task is to create a Data frame and capture the Training Time, Training Accuracy and Test Accuracy.
 When comparing all models Decision Tree performed better with AUC score of 0.74. 
 SVM and KNN with score of 0.70.
