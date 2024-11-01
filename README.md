@@ -44,7 +44,8 @@ Established a baseline to compare the other models. For this used DummyClassifie
 Indicates that the predictions are positive.
 
 Dummy Classifier ROC Curve-AUC score
-<img width="631" alt="Screenshot 2024-10-31 at 12 02 04 AM" src="https://github.com/user-attachments/assets/abd18431-a6ef-4f91-8a23-4a253511ac24">
+<img width="630" alt="ROC Curve Dummy Classifier with AUC" src="https://github.com/user-attachments/assets/51e323f2-8c73-4c5c-a22e-cf540108695a">
+
 
 # Simple Logistic Model 
 Simple Logictic Regression Model did improve the prediction rate overall with AUC 0.71 and predicting NO with 93% and Yes with 71%
